@@ -1,1 +1,0 @@
-import{a as i,U as s}from"./axios-56b87110.js";const r=(t,e,d)=>{let a=[];t.forEach(o=>{o.to_delete&&a.push(o.id)}),i({method:"POST",url:s+e,data:{id:a}}).then(()=>{d.commit("changeReload")})};export{r as D};
