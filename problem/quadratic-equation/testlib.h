@@ -170,8 +170,6 @@ namespace tl
 #ifndef TESTLIBRARY_ABSTRACTREADER_H
 #define TESTLIBRARY_ABSTRACTREADER_H
 
-#include "TestLibrarySecure.hpp"
-
 #ifdef __GNUC__
 #   include <sys/stat.h>
 // #elif defined(_MSC_VER)
@@ -185,10 +183,6 @@ namespace tl
 #include <string>
 #include <vector>
 #include <functional>
-
-#include "TestLibraryIOSettings.hpp"
-
-#include "ResultWriter.hpp"
 
 #define IS_NOT_OPEN_ASSERT TESTLIBRARY_ASSERT(isOpen(), "file isn't open")
 
@@ -1026,8 +1020,6 @@ namespace tl
         std::exit(0);
     }
 }
-
-#include "AbstractReader.hpp"
 
 namespace tl
 {
