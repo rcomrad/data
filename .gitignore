@@ -1,3 +1,9 @@
 **.exe
 **.data
-**.cpp
+submition/**.cpp
+submition/**.c
+submition/**.py
+submition/**.pas
+submition/**.p
+**.dmp
+**.csv
