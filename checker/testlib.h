@@ -170,8 +170,6 @@ namespace tl
 #ifndef TESTLIBRARY_ABSTRACTREADER_H
 #define TESTLIBRARY_ABSTRACTREADER_H
 
-#include "TestLibrarySecure.hpp"
-
 #ifdef __GNUC__
 #   include <sys/stat.h>
 // #elif defined(_MSC_VER)
@@ -182,13 +180,10 @@ namespace tl
 #include <cfloat>
 #include <cstring>
 
+#include <limits>
 #include <string>
 #include <vector>
 #include <functional>
-
-#include "TestLibraryIOSettings.hpp"
-
-#include "ResultWriter.hpp"
 
 #define IS_NOT_OPEN_ASSERT TESTLIBRARY_ASSERT(isOpen(), "file isn't open")
 
@@ -344,12 +339,12 @@ namespace tl
         [[nodiscard]] inline bool isNotDigit();
 
         template<typename NumT, typename SummandT,
-                 typename = std::enable_if_t<std::is_arithmetic_v<NumT>>>
+                 typename = std::enable_if_t<std::is_arithmetic<NumT>::value>>
         [[nodiscard]] inline static
         bool isLessThanMin(NumT num, SummandT nextSummand) noexcept;
 
         template<typename NumT, typename SummandT,
-                 typename = std::enable_if_t<std::is_arithmetic_v<NumT>>>
+                 typename = std::enable_if_t<std::is_arithmetic<NumT>::value>>
         [[nodiscard]] inline static
         bool isMoreThanMax(NumT num, SummandT nextSummand) noexcept;
 
@@ -366,30 +361,30 @@ namespace tl
                                              });
 
         template<typename IntT,
-                 typename = std::enable_if_t<std::is_integral_v<IntT>>>
+                 typename = std::enable_if_t<std::is_integral<IntT>::value>>
         READ_RET_TYPE readAbstractIntWithoutSign(
             IntT& num,
             bool(&checkOverflowFunc)(IntT, std::int8_t)
         ) noexcept;
 
         template<typename IntT,
-                 typename = std::enable_if_t<std::is_integral_v<IntT>>>
+                 typename = std::enable_if_t<std::is_integral<IntT>::value>>
         READ_RET_TYPE readAbstractPositiveInt(IntT& num) noexcept;
 
         template<typename IntT,
-                 typename = std::enable_if_t<std::is_integral_v<IntT>>>
+                 typename = std::enable_if_t<std::is_integral<IntT>::value>>
         READ_RET_TYPE readAbstractNegativeInt(IntT& num) noexcept;
 
         template<typename IntT,
-                 typename = std::enable_if_t<std::is_integral_v<IntT>>>
+                 typename = std::enable_if_t<std::is_integral<IntT>::value>>
         READ_RET_TYPE readAbstractInt(IntT& num) noexcept;
 
         template<typename IntT,
-                 typename = std::enable_if_t<std::is_signed_v<IntT>>>
+                 typename = std::enable_if_t<std::is_signed<IntT>::value>>
         READ_RET_TYPE readAbstractIntImpl(IntT& num, std::true_type) noexcept;
 
         template<typename IntT,
-                 typename = std::enable_if_t<std::is_unsigned_v<IntT>>>
+                 typename = std::enable_if_t<std::is_unsigned<IntT>::value>>
         READ_RET_TYPE readAbstractIntImpl(IntT& num, std::false_type) noexcept;
 
         template<typename Real>
@@ -1027,8 +1022,6 @@ namespace tl
     }
 }
 
-#include "AbstractReader.hpp"
-
 namespace tl
 {
     void
@@ -1530,7 +1523,7 @@ namespace tl
     }
 
     template<typename NumT,  typename SummandT,
-             typename = std::enable_if_t<std::is_arithmetic_v<NumT>>>
+             typename = std::enable_if_t<std::is_arithmetic<NumT>::value>>
     bool
     AbstractReader::isLessThanMin(const NumT num,
                                   const SummandT nextSummand) noexcept
@@ -1548,7 +1541,7 @@ namespace tl
     }
 
     template<typename NumT,  typename SummandT,
-             typename = std::enable_if_t<std::is_arithmetic_v<NumT>>>
+             typename = std::enable_if_t<std::is_arithmetic<NumT>::value>>
     bool
     AbstractReader::isMoreThanMax(const NumT num,
                                   const SummandT nextSummand) noexcept
@@ -1667,7 +1660,7 @@ namespace tl
     }
 
     template<typename IntT,
-             typename = std::enable_if_t<std::is_integral_v<IntT>>>
+             typename = std::enable_if_t<std::is_integral<IntT>::value>>
     READ_RET_TYPE
     AbstractReader::readAbstractIntWithoutSign(
         IntT& num,
@@ -1704,7 +1697,7 @@ namespace tl
     }
 
     template<typename IntT,
-             typename = std::enable_if_t<std::is_integral_v<IntT>>>
+             typename = std::enable_if_t<std::is_integral<IntT>::value>>
     READ_RET_TYPE
     AbstractReader::readAbstractPositiveInt(IntT& num) noexcept
     {
@@ -1712,7 +1705,7 @@ namespace tl
     }
 
     template<typename IntT,
-             typename = std::enable_if_t<std::is_integral_v<IntT>>>
+             typename = std::enable_if_t<std::is_integral<IntT>::value>>
     READ_RET_TYPE
     AbstractReader::readAbstractNegativeInt(IntT& num) noexcept
     {
@@ -1720,7 +1713,7 @@ namespace tl
     }
 
     template<typename IntT,
-             typename = std::enable_if_t<std::is_integral_v<IntT>>>
+             typename = std::enable_if_t<std::is_integral<IntT>::value>>
     READ_RET_TYPE
     AbstractReader::readAbstractInt(IntT& num) noexcept
     {
@@ -1728,7 +1721,7 @@ namespace tl
     }
 
     template<typename IntT,
-             typename = std::enable_if_t<std::is_signed_v<IntT>>>
+             typename = std::enable_if_t<std::is_signed<IntT>::value>>
     READ_RET_TYPE
     AbstractReader::readAbstractIntImpl(IntT& num, std::true_type) noexcept
     {
@@ -1769,7 +1762,7 @@ namespace tl
     }
 
     template<typename IntT,
-                 typename = std::enable_if_t<std::is_unsigned_v<IntT>>>
+                 typename = std::enable_if_t<std::is_unsigned<IntT>::value>>
     inline READ_RET_TYPE
     AbstractReader::readAbstractIntImpl(IntT& num, std::false_type) noexcept
     {
