@@ -638,6 +638,8 @@ namespace tl { namespace bc
     public:
         explicit InStream(tl::AbstractReader& reader);
 
+        bool eof();
+
         bool seekEof();
 
         void readWordTo(std::string& result);
@@ -2304,6 +2306,12 @@ namespace tl { namespace bc
             mReader(reader)
     {
 
+    }
+
+    bool
+    InStream::eof()
+    {
+        return mReader.isEndOfFile();
     }
 
     bool
