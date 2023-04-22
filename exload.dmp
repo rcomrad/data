@@ -14,3 +14,7 @@ END
 user_competition
 	25;1
 END
+
+user
+	submitor;123;Tester;Testerovich;1;128
+END
