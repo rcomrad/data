@@ -5,8 +5,6 @@ END
 
 competition_problem
 	Swiper;1;1
-	Задача 2;1;2
-	Задача 3;2;3
 END
 
 competition
