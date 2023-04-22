@@ -5,6 +5,6 @@ submition/**.c
 submition/**.py
 submition/**.pas
 submition/**.p
-**.dmp
+dump/**.dmp
 **.csv
 answer/**.ans
