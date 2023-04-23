@@ -256,6 +256,8 @@ namespace tl
 
         [[nodiscard]] bool isEndOfFile() const;
 
+        [[nodiscard]] bool seekEngOfFile();
+
         void skipWhitespaces();
 
         void skipChar();
@@ -1061,6 +1063,17 @@ namespace tl
         BOOL_FUNC_RETURN_LOG(logger, result, *mData == '\000');
     }
 
+    bool
+    AbstractReader::seekEngOfFile()
+    {
+        if (mIgnoreWhitespaces)
+        {
+            skipWhitespaces();
+        }
+
+        return isEndOfFile();
+    }
+
     void
     AbstractReader::skipWhitespaces()
     {
@@ -1068,7 +1081,7 @@ namespace tl
 
         while (isWhitespace() && !isEndOfFile())
         {
-            mData++;
+            ++mData;
         }
 
         FUNC_FINISH_LOG(logger);
@@ -2317,7 +2330,7 @@ namespace tl { namespace bc
     bool
     InStream::seekEof()
     {
-        return mReader.isEndOfFile();
+        return mReader.seekEngOfFile();
     }
 
     void
