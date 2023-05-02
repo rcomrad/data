@@ -49,7 +49,9 @@ Result: Unknown
 	/api/post/competition
 	{
 		"many_to_many" : "add",
-		"id": 1,
+		"name": "Пробный тур",
+		"start_time": "2023-04-02 15:00:00",
+		"end_time": "2023-04-03 00:00:00",
 		"problem": [
 			1,
 			2
