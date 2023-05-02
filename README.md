@@ -25,11 +25,12 @@ if some property of the object is excluded from the body of the post request, wh
 
 Result: ID of the updated object
 
-### 3) Many-To-Many request: `many-to-many type, (-id, all data)/(id), arrays of indexes`
+### 3) Many-To-Many request: `many-to-many type, (-id, all data)/(id, some data), arrays of indexes`
 
-Firstly, if you do not specify the object ID (or its identifier is zero), 
-then the specified data will be used to create a new object using the rules of the insert new object function, 
-and the resulting identifier will be used in the next step.
+Firstly, if you do not specify the object ID (or its identifier is zero),
+then the specified data will be used to create a new object using the rules of the insert new object function,
+and the resulting identifier will be used in the next step. Otherwise data will be used to update the object 
+with the specified ID using the rules for updating existing object function.
 
 To insert "Many to Many" relation, you need to specify 
 the many_to_many field in the request body with one of two values:
