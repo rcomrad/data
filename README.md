@@ -36,10 +36,24 @@ the many_to_many field in the request body with one of two values:
 
 `add` - add connections to existing ones 
 
-`replace` - create a new connection and delete old ones (delete all connection with the selected object - by ID.
+`replace` - create a new connection and delete old ones (delete all connection with the selected object - by ID).
 
 The "Many to many" request connects selected object from the <string: TableName> 
 with all objects from the array of IDs specified as a parameter of the request body. 
 The name of the array property must match the TableName of the objects.
 
 result: unknown
+
+/api/post/competition
+{
+    "many_to_many" : "add",
+    "id": 1,
+    "problem": [
+        1,
+        2
+    ],
+	"question": [
+        1,
+        2
+    ]
+}
