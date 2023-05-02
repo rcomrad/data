@@ -15,7 +15,7 @@ POST Insert request allows you to insert data in app database. There are three r
 If you want to insert a completely new object into the database, you must specify all the object data 
 in the body of the post request, except for the object ID (or with an identifier equal to zero).
 
-result: ID of the created object
+Result: ID of the created object
 
 ### 2) update existing object: `id, some data`
 
@@ -23,7 +23,7 @@ To update an existing object, you must specify the ID of the target object.
 After that, you can freely choose which data you want to change: 
 if some property of the object is excluded from the body of the post request, when it will not be changed.
 
-result: ID of the updated object
+Result: ID of the updated object
 
 ### 3) Many-To-Many request: `many-to-many type, (-id, all data)/(id), arrays of indexes`
 
@@ -42,7 +42,7 @@ The "Many to many" request connects selected object from the <string: TableName>
 with all objects from the array of IDs specified as a parameter of the request body. 
 The name of the array property must match the TableName of the objects.
 
-result: unknown
+Result: Unknown
 
 	example:
 	/api/post/competition
