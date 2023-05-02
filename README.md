@@ -27,18 +27,18 @@ result: ID of the updated object
 
 ### 3) Many-To-Many request: `many-to-many type, (-id, all data)/(id), arrays of indexes`
 
-To start inserting "Many to Many", you need to specify the many_to_many field in the request body with one of two values:
+Firstly, if you do not specify the object ID (or its identifier is zero), 
+then the specified data will be used to create a new object using the rules of the insert new object function, 
+and the resulting identifier will be used in the next step.
+
+To insert "Many to Many" relation, you need to specify 
+the many_to_many field in the request body with one of two values:
 
 `add` - add connections to existing ones 
 
-`replace` - create a new connection and delete old ones
+`replace` - create a new connection and delete old ones (delete all connection with the selected object - by ID.
 
-
-If you do not specify the object identifier (or its identifier is zero), 
-then the specified data will be used to create a new object using the rules of the insert new object function, 
-and the resulting identifier will be used in the next step.
- 
-The "Many to many" request connects the selected object (by ID) from the <string: TableName> 
+The "Many to many" request connects selected object from the <string: TableName> 
 with all objects from the array of IDs specified as a parameter of the request body. 
 The name of the array property must match the TableName of the objects.
 
