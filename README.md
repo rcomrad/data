@@ -44,17 +44,17 @@ The name of the array property must match the TableName of the objects.
 
 result: unknown
 
-`example:
-/api/post/competition
-{
-    "many_to_many" : "add",
-    "id": 1,
-    "problem": [
-        1,
-        2
-    ],
-	"question": [
-        1,
-        2
-    ]
-}`
+> - example:
+> - /api/post/competition
+> - {
+> -     "many_to_many" : "add",
+> -     "id": 1,
+> -     "problem": [
+> -         1,
+> -         2
+> -     ],
+> - 	"question": [
+> -         1,
+> -         2
+> -     ]
+> - }
