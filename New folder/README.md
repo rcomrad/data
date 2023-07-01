@@ -1,5 +1,9 @@
 # KusServer documentation
-<center>No guarantee | No warranty | No return</center>
+KusServer is a cross-platform tool for configuring the server and supporting its API in C++.
+
+KusServer provides:
+
+No guarantee | No warranty | No return
 
 # Server setup
 To start the server, run the file /devops/setup/server_setup.bat. 
