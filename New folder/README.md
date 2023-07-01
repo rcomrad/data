@@ -5,13 +5,18 @@ To start the server, run the file /devops/setup/server_setup.bat.
 This file extracts server configuration information from the local bat file. 
 The path to this bat file stored in the /devops/setup/scripts/key.bat. The local configuration file contains the following information
 
-	set ip=127.0.0.2			# IP address of server
+	# IP address of server
+	set ip=127.0.0.2
 
-	set server_name=root		# name of root user
-	set server_password=12345	# password for root user
+	# name of root user
+	set server_name=root
+	# password for root user
+	set server_password=12345
 
-	set user_name=user			# name of a user to be created
-	set user_password=12345		# password for created user
+	# name of a user to be created
+	set user_name=user
+	# password for created user
+	set user_password=12345
 
 	set domain=kussystem.ru
 	set domain_mail=kussystem@mail.ru
