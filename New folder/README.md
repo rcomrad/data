@@ -13,24 +13,30 @@ The path to this bat file stored in the /devops/setup/scripts/key.bat. The local
 	# password for root user
 	set server_password=12345
 
-	# name of a user to be created
+	# name of a user with sudo access to be created
 	set user_name=user
 	# password for created user
 	set user_password=12345
 
+	# name of your domain
 	set domain=kussystem.ru
+	# mail for letsencrypt
 	set domain_mail=kussystem@mail.ru
 
+	# url for cloning the current project
 	set project_url=https://github.com/r-comrad/server_v4
+	# url for cloning a data project (contains frontend code and static data for server)
 	set data_url=https://github.com/rcomrad/data
+
+	# path for generated ssh keys
 	set key_dir=D:/keys/
-
-	set git_name=r_comrad
-	set git_maile=git_maile@mail.ru
-
+	# path to windows ssh folder
 	set win_ssh_dir=C:\Users\r_comrad\.ssh
 
-
+	# git user name (for git config)
+	set git_name=r_comrad
+	# git mail (for git config)
+	set git_maile=git_maile@mail.ru
 
 # API description
 ## POST Insert|Update request (/api/post/<string: TableName>)
