@@ -1,11 +1,12 @@
 # KusServer documentation
-No guarantee | No warranty | No return
+<center>No guarantee | No warranty | No return</center>
 
+# Server setup
 To start the server, run the file /devops/setup/server_setup.bat. 
 This file extracts server configuration information from the local bat file. 
 The path to this bat file stored in the /devops/setup/scripts/key.bat. The local configuration file contains the following information
 
-	# IP address of server
+	# IP address of the server
 	set ip=127.0.0.2
 
 	# name of root user
