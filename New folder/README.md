@@ -1,14 +1,16 @@
-# KusServer documentation
-KusServer is a cross-platform tool for configuring the server and supporting its API in C++.
+# KusServer Documentation
+KusServer is a cross-platform tool for configuring a server and supporting its API on C++.
 
 KusServer provides:
 
 No guarantee | No warranty | No return
 
-# Server setup
+# Server Setup
+## Automated remote server deploy
 To start the server, run the file /devops/setup/server_setup.bat. 
 This file extracts server configuration information from the local bat file. 
-The path to this bat file stored in the /devops/setup/scripts/key.bat. The local configuration file contains the following information
+The path to this bat file stored in the file /devops/setup/scripts/key.bat. 
+The local configuration file should contain the following information:
 
 	# IP address of the server
 	set ip=127.0.0.2
@@ -43,8 +45,52 @@ The path to this bat file stored in the /devops/setup/scripts/key.bat. The local
 	# git mail (for git config)
 	set git_maile=git_maile@mail.ru
 
-# API description
-## POST Insert|Update request (/api/post/<string: TableName>)
+## Database connection settings
+The server uses postgresql to store data.
+In order to make queries to the database, the bin folder of the server project must contain the database.pass file. 
+The contents of the file define parameters for creating database connections, such as database name, username, schema.
+This file has the following structure:
+
+	user_type database_name user_name user_pasword schema_name
+
+user_type corresponds to the user mode for this particular parameters. 
+You must specify exactly one set of parameters (parameter triplet - database  username schema) for each user mode.
+There are two user mods:
+	
+	0 # For ADMIN connection
+	1 # For USER connection
+
+Thus, the database.pass file could contain the following lines:
+
+	0 postgres postgres 12345 public
+	1 my_database user 12345 my_schema
+
+## Program settings
+KusServer uses variables to store the user settings of the server instance.
+To configure a variable, you must write it to the main_settings.conf file in the bin directory.
+KasServer supports the following settings:
+
+
+	# Sets the number of database connections used by the server
+	database_connection_count 3
+	# Sets the number of threads for submission testing (programming problems)
+	tester_thread_count 1
+
+	# Force the server to execute the restart command at startup.
+	# This type of command can reconfigure the database, add or delete data.
+	restart_on_start nun
+
+	
+	# Set the flag for submission online testing (programming problems)
+	submission_auto_check off
+	# Set the flag for simple answers online testing
+	answer_auto_check on
+
+	# Set the flag to implement authorization
+	authorisation off
+
+# API Description
+## POST insert|update request (/api/post/<string: TableName>)
 
 All URLs of POST Insert|Update requests end with the name of the target table (object table).
 
@@ -65,7 +111,7 @@ if some property of the object is excluded from the body of the post request, wh
 
 Result: ID of the updated object
 
-### 3) Many-To-Many request: `many-to-many type, (-id, all data)/(id, some data), arrays of indexes`
+### 3) many-ro-many request: `many-to-many type, (-id, all data)/(id, some data), arrays of indexes`
 
 Firstly, if you do not specify the object ID (or its identifier is zero),
 then the specified data will be used to create a new object using the rules of the insert new object function,
