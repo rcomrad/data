@@ -1,5 +1,5 @@
 # KusServer Documentation
-KusServer is a cross-platform tool for configuring a server and supporting its API on C++.
+KusServer is a tool for setup and maintain a server on C++.
 
 KusServer provides:
 
@@ -89,12 +89,68 @@ KasServer supports the following settings:
 	# Set the flag to implement authorization
 	authorisation off
 
+# Testing
+
+### nginx
+
+You can check if nginx is configured correctly by sending a /test request.
+For example https://kussystem.ru/test.
+If nginx setup is successful, you will receive the following message:
+
+	Hello from nginx!
+
+### KusServer process
+
+To check whether the server process is running, you can use /api/test request.
+For example https://kussystem.ru/api/test.
+Provided that the server process is capable of performing basic functional, you will receive the following message:
+
+	All fine!
+
+### postman test
+
+To test the API, you can use postman test, located in the test folder in the postman_tests.json file.
+
 # API Description
-## POST insert|update request (/api/post/<string: TableName>)
 
-All URLs of POST Insert|Update requests end with the name of the target table (object table).
+## Authentication (/api/login) | POST
 
-POST Insert request allows you to insert data in app database. There are three request mods:
+To log in, the user must use authentication post-request and specify the username and password in the request body.
+
+Result: If authentication was successful, the result will contain 
+user object (ID, login, user roles, token if any, and other data).
+401 Unauthorized otherwise.
+
+	example:
+	/api/login
+	{
+		"login": "user",
+		"password": "12345"
+	}
+
+## Get data (/api/get/<mode>/<data request>) | GET
+
+The get request retrieves data from the database in JSON format. 
+This data object can be aggregated from various tables.
+In order to make a get data request, you must specify get mode, data request, and an optional condition.
+
+### request mods
+
+There are three mods for the get request:
+
+1) /api/get/all/<database request> - returns all objects for given request
+
+2) /api/get/by_id/<database request>>/<id> - returns an object with the specified ID
+
+3) /api/get/if/<database request>>/<condition> - returns objects that match the specified criteria
+
+### data request rules
+
+## Insert/Update request (/api/post/<string: TableName>) | POST
+
+All URLs of POST insert/update requests end with the name of the target table (object table).
+
+POST insert request allows you to insert data in app database. There are three request mods:
 
 ### 1) insert new object: `-id, all data`
 
