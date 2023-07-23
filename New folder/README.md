@@ -128,7 +128,7 @@ user object (ID, login, user roles, token if any, and other data).
 		"password": "12345"
 	}
 
-## Get data (/api/get/<mode>/<data request>) | GET
+## Get data (/api/get/<get mode>/<data request>) | GET
 
 The get request retrieves data from the database in JSON format. 
 This data object can be aggregated from various tables.
@@ -144,7 +144,31 @@ There are three mods for the get request:
 
 3) /api/get/if/<database request>>/<condition> - returns objects that match the specified criteria
 
-### data request rules
+### data request rules - brackets
+
+To select specific table columns or to insert data from another database table
+corresponding to specified column, you can use brackets - [ ].
+For example, if you use the following query, you will receive a complete user object (all columns of the table).
+
+	/api/get/all/user
+	/api/get/all/user[*] # the * symbol will insert names of all columns
+
+But if you want to get only the user id and his roles you can use this:
+
+	/api/get/all/user[id,role]
+
+Finally, to add information about the user's organization or other data with one-to-many relation, use this:
+
+	/api/get/all/user[organisation[id,name,address]]
+
+### data request rules - parentheses
+
+Parentheses also help you with the one-to-many relations, but this relationship should have the opposite direction.
+Using the example above, if you want to add all users for a specific organization, you can use the following request:
+
+	/api/get/all/organisation[id,(user[name,role])]
+
+In order for the parentheses to work, you must select an identid column ifier for the caller object (in this example for the organization).
 
 ## Insert/Update request (/api/post/<string: TableName>) | POST
 
