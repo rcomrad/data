@@ -6,6 +6,14 @@ KusServer provides:
 No guarantee | No warranty | No return
 
 # Server Setup
+
+KusServer uses vcpkg to manage libraries for cmake by specifing toolchain file in CMakeLists.txt file.
+KusServer requires the following libraries:
+
+	boost
+	libpqxx
+	crow
+
 ## Automated remote server deploy
 To start the server, run the file /devops/setup/server_setup.bat. 
 This file extracts server configuration information from the local bat file. 
@@ -140,9 +148,9 @@ There are three mods for the get request:
 
 1) /api/get/all/<database request> - returns all objects for given request
 
-2) /api/get/by_id/<database request>>/<id> - returns an object with the specified ID
+2) /api/get/by_id/<database request>/<id> - returns an object with the specified ID
 
-3) /api/get/if/<database request>>/<condition> - returns objects that match the specified criteria
+3) /api/get/if/<database request>/<condition> - returns objects that match the specified criteria
 
 ### data request rules - brackets
 
@@ -163,7 +171,7 @@ Finally, to add information about the user's organization or other data with one
 
 ### data request rules - parentheses
 
-Parentheses also help you with the one-to-many relations, but this relationship should have the opposite direction.
+Parentheses ( ) also help you with the one-to-many relations, but this relationship should have the opposite direction.
 Using the example above, if you want to add all users for a specific organization, you can use the following request:
 
 	/api/get/all/organisation[id,(user[name,role])]
