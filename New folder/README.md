@@ -8,6 +8,7 @@ No guarantee | No warranty | No return
 # Server Setup
 
 KusServer uses vcpkg to manage libraries for cmake by specifing toolchain file in CMakeLists.txt file.
+
 KusServer requires the following libraries:
 
 	boost
@@ -136,7 +137,7 @@ user object (ID, login, user roles, token if any, and other data).
 		"password": "12345"
 	}
 
-## Get data (/api/get/<get mode>/<data request>) | GET
+## Get data (/api/get/<string: mode>/<string: data request>) | GET
 
 The get request retrieves data from the database in JSON format. 
 This data object can be aggregated from various tables.
@@ -146,11 +147,11 @@ In order to make a get data request, you must specify get mode, data request, an
 
 There are three mods for the get request:
 
-1) /api/get/all/<database request> - returns all objects for given request
+1) /api/get/all/<string: data request> - returns all objects for given request
 
-2) /api/get/by_id/<database request>/<id> - returns an object with the specified ID
+2) /api/get/by_id/<string: data request>/<string: id> - returns an object with the specified ID
 
-3) /api/get/if/<database request>/<condition> - returns objects that match the specified criteria
+3) /api/get/if/<string: data request>/<string: condition> - returns objects that match the specified criteria
 
 ### data request rules - brackets
 
