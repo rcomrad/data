@@ -8,3 +8,4 @@ submition/**.p
 dump/**.dmp
 **.csv
 answer/**.ans
+/ignore_tester
