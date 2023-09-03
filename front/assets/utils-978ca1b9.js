@@ -1,0 +1,1 @@
+function o(){return JSON.parse(localStorage.getItem("user")||"false")}function r(){localStorage.removeItem("user")}function a(t){const e=new Date;return e.setMonth(t),e.toLocaleString("ru-RU",{month:"long"})}export{r as D,o as G,a as M};
