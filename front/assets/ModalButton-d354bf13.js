@@ -1,0 +1,1 @@
+import{j as n}from"./index-be40ab28.js";import"./bootstrap.bundle.min-ad4f528d.js";function e({connected_with:a,button_text:t,additionalClasses:o,preOpen:r}){return n.jsx("button",{type:"button",className:`btn btn-primary ${o}`,"data-bs-toggle":"modal",onClick:r,"data-bs-target":`#${a}`,children:t||"Click!"})}export{e as M};
