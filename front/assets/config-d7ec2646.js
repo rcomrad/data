@@ -1,0 +1,1 @@
+var A=(s=>(s[s.INPUT=0]="INPUT",s[s.SELECT=1]="SELECT",s[s.CHECKBOX=2]="CHECKBOX",s[s.TEXTAREA=3]="TEXTAREA",s[s.RADIO=4]="RADIO",s[s.FILE=5]="FILE",s[s.SMART_SELECT=6]="SMART_SELECT",s[s.SCHEDULE=7]="SCHEDULE",s[s.COMBOBOX=8]="COMBOBOX",s))(A||{});const C="https://kussystem.ru/api",L=20,O="https://kussystem.ru";export{C as A,A as E,L as M,O as a};
