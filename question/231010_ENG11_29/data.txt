@@ -1,2 +1,2 @@
  type=singl
- answer=
+ answer=МАРАТА
