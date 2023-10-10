@@ -1,0 +1,14 @@
+In the works of A. Pushkin, the image of the main St. Petersburg river, the Neva, is often found. For example, «Невы державное теченье...», «Нева вздувалась и ревела…» , etc. Fill in the table with the names of the Neva branches and small rivers of the central part of St. Petersburg, combining the name and the letter on the diagram, respectively. (10 points)
+1) Река Нева
+2) Река Фонтанка
+3) Канал Грибоедова
+4) Река Мойка
+5) Река Охта
+6) Большая Нева
+7) Малая Нева
+8) Большая Невка
+9) Малая Невка
+10) Средняя Невка
+В ответе запишите только буквы рек в порядке их перечисления выше.
+Пример: если есть только первые две реки, и при этом Река Нева это Б, а Река Фонтанка это В, то в ответ будет следующий
+БВ
