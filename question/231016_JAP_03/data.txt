@@ -1,2 +1,2 @@
-type=table
+type=simpl
 answer=false
