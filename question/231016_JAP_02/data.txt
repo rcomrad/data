@@ -1,2 +1,2 @@
-type=simpl
+type=singl
 answer=false
