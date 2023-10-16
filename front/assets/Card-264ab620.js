@@ -1,0 +1,1 @@
+import{j as r}from"./index-832b76af.js";function c({children:s,additionalClasses:a}){return r.jsx("div",{className:`card ${a}`,children:r.jsx("div",{className:"card-body",children:s})})}export{c as C};
