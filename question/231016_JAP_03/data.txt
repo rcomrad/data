@@ -1,2 +1,3 @@
 type=singl
 answer=false
+name=Вопрос 3
