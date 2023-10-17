@@ -1,3 +1,3 @@
-type=table
+type=singl
 answer=false
 name=Вопрос 9
