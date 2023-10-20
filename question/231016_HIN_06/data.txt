@@ -1,3 +1,4 @@
 type=table
 answer=false
 name=Вопрос 6
+answer=A,B,A,B,B

@@ -1,3 +1,4 @@
 type=singl
 answer=false
 name=Вопрос 4
+answer=2
