@@ -1,6 +1,6 @@
 type=table
 answer=false
 name=Вопрос 12
-answer=9,4,1,8,6,3,7,,2,5
+answer=9,4,1,8,6,3,7,2,5
 
 
