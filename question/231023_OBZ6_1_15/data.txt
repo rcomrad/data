@@ -1,4 +1,4 @@
 name=Задача 1
-type=singl ответ
+type=singl
 weight=5
 answer=салфетки,бинт,ножницы,термометр,жгут

@@ -1,4 +1,4 @@
 name=Вопрос 7
+type=singl посимвольный
 weight=1
 answer=изоляция
-type=singl

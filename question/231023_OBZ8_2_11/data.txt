@@ -1,4 +1,4 @@
 name=Вопрос 11
-type=singl ответ
+type=singl
 weight=3
 answer=здоровье,территория,ураган

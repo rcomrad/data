@@ -1,5 +1,5 @@
 name=Вопрос 13
-type=singl ответ
+type=singl
 weight=1
 answer=нодья,колодец,таежный,шалаш
 img=2.jpg
