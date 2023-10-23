@@ -1,4 +1,4 @@
 name=Вопрос 3
-type=да-нет
+type=bool
 weight=1
 answer=да
