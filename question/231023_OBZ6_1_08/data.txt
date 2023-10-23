@@ -1,4 +1,4 @@
- name=Вопрос 8
- type=radio
- weight=1
- answer=3
+name=Вопрос
+type=singl
+weight=1
+answer=3

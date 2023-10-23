@@ -1,4 +1,4 @@
- name=Вопрос 2
- type=radio
- weight=1
- answer=4
+name=Вопрос
+type=singl
+weight=1
+answer=4

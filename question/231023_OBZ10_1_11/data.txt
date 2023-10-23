@@ -1,5 +1,5 @@
- name=Вопрос 11
- type=check
- weight=2
- answer=БВ
- img=pete.jpg
+name=Вопрос
+type=singl
+weight=2
+answer=БВ
+img=pete.jpg

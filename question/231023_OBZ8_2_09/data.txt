@@ -1,6 +1,5 @@
- name=Вопрос 9
- type=свободный ответ
- weight=3
- answer=1Б2В3А
- ans_list= А,Б,В
- type=table
+name=Вопрос
+type=table
+weight=3
+answer=1Б2В3А
+ans_list=А,Б,В

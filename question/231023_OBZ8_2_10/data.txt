@@ -1,4 +1,4 @@
- name=Вопрос 10
- type=check
- weight=4
- answer=4 1 2 3
+name=Вопрос
+type=singl
+weight=4
+answer=4

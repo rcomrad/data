@@ -1,2 +1,5 @@
- type=table
- 
+type=table
+name=16_A
+weight=1
+answer=
+jury_answer=NUN_ANS

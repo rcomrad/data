@@ -1,3 +1,4 @@
- name=Вопрос 5
- weight=2
- answer=2 5
+name=Вопрос
+weight=2
+answer=2
+type=singl

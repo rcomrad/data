@@ -1,3 +1,4 @@
- name=Вопрос 3
- weight=1
- answer=да
+name=Вопрос
+weight=1
+answer=да
+type=singl

@@ -1,5 +1,5 @@
- name=Вопрос 6
- type=radio
- weight=1
- answer=2
- img=pedestrian.jpg
+name=Вопрос
+type=singl
+weight=1
+answer=2
+img=pedestrian.jpg
