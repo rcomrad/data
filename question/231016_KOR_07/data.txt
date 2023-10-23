@@ -1,4 +1,0 @@
-type=table
-answer=false
-name=Вопрос 7
-answer=в,б,а,г,в,а,г,б

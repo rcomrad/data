@@ -1,4 +1,0 @@
-type=singl
-answer=false
-name=Вопрос 7
-answer=c

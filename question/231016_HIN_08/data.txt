@@ -1,4 +1,0 @@
-type=table
-answer=false
-name=Вопрос 8
-answer=5,3,2,1,4

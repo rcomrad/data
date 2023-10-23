@@ -1,4 +1,0 @@
-type=table
-answer=false
-name=Вопрос 8
-answer=в,г
