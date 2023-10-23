@@ -1,0 +1,4 @@
+ name=Вопрос 5
+ type=check
+ weight=3
+ answer=1 3 4

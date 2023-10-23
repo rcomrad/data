@@ -1,0 +1,5 @@
+ name=Вопрос 12
+ type=radio
+ weight=1
+ answer=1
+ img=fire.jpg

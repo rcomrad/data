@@ -1,0 +1,4 @@
+ name=Вопрос 5
+ type=radio
+ weight=1
+ answer=3

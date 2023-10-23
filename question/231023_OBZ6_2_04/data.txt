@@ -1,0 +1,5 @@
+ name=Вопрос 4
+ type=radio
+ weight=1
+ answer=1
+ img=intersection.jpg

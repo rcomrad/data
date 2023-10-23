@@ -1,0 +1,4 @@
+ name=Вопрос 15
+ type=check
+ weight=2
+ answer=1 4

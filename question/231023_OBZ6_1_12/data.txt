@@ -1,0 +1,4 @@
+ name=Вопрос 12
+ type=check
+ weight=2
+ answer=1 3

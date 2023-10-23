@@ -1,0 +1,5 @@
+ name=Вопрос 2
+ type=radio
+ weight=1
+ answer=2
+ img=system.jpg

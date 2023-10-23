@@ -1,0 +1,5 @@
+ name=Вопрос 15
+ type=check
+ weight=2
+ answer=2 3
+ img=3.jpg

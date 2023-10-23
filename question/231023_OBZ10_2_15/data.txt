@@ -1,0 +1,5 @@
+ name=Вопрос 15
+ type=radio
+ weight=1
+ answer=3
+ img=resuscitation.jpg

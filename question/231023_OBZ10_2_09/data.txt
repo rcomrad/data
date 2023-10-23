@@ -1,0 +1,4 @@
+ name=Вопрос 9
+ type=check
+ weight=3
+ answer=1 2 4
