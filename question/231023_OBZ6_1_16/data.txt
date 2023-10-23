@@ -1,4 +1,4 @@
 type=table
-answer=rr
+answer=салфетки,бинт,ножницы,термометр,жгут
 name=Вопрос 16
 weight=1
