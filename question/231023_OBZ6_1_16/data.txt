@@ -1,5 +1,4 @@
 type=table
-name=16_A
+answer=rr
+name=Вопрос 16
 weight=1
-answer=
-jury_answer=NUN_ANS

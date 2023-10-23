@@ -1,5 +1,5 @@
-name=Вопрос
+name=Вопрос 9
 type=table
 weight=3
 answer=1Б2В3А
-ans_list=А,Б,В
+ans list= А,Б,В

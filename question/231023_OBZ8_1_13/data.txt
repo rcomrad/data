@@ -1,4 +1,4 @@
-name=Вопрос
+name=Вопрос № 13
 weight=2
-answer=2
+answer=2 4
 type=singl

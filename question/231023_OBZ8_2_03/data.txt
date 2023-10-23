@@ -1,4 +1,4 @@
-name=Вопрос
+name=Вопрос 3
 type=singl
 weight=1
 answer=Г
