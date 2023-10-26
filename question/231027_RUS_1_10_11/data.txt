@@ -1,5 +1,4 @@
 name=Вопрос 11
+answer=NIN
 type=singl
 weight=1
-answer=
-jury answer=NUN ANS
