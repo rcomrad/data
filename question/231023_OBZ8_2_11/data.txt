@@ -1,4 +1,0 @@
-name=Вопрос 11
-type=singl
-weight=3
-answer=здоровье,территория,ураган

@@ -1,5 +1,0 @@
-name=Вопрос 13
-type=singl
-weight=1
-answer=2
-img=azimuth.jpg

@@ -1,0 +1,4 @@
+name=Задание 9
+type=singl
+weight=1
+answer=3

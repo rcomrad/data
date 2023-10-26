@@ -1,0 +1,4 @@
+name=Задание 5
+type=singl
+weight=1
+answer=тыква

@@ -1,5 +1,0 @@
-name=Вопрос 9
-type=table
-weight=3
-answer=1Б2В3А
-ans list= А,Б,В

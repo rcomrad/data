@@ -1,0 +1,5 @@
+name=Вопрос 12
+type=singl
+weight=1
+answer=
+jury answer=NUN ANS
