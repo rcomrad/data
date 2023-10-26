@@ -1,4 +1,0 @@
-name=вопрос 10
-type=singl
-weight=10
-answer=письменный ответ на вопрос.

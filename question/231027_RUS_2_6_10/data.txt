@@ -1,5 +1,4 @@
 name=Задание 10
 type=singl
 weight=от 5 до 10.
-answer=
-jury answer=NUN ANS
+answer=NUN

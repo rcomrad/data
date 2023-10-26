@@ -1,4 +1,4 @@
+name=Задание 6
 type=singl
 weight=2
 answer=2 3
-name=06 D
