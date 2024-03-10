@@ -1,0 +1,4 @@
+name=вопрос 8
+type=singl
+weight=1
+answer=1
