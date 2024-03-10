@@ -1,0 +1,4 @@
+name=Вопрос 11
+answer=NIN
+type=singl
+weight=1

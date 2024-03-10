@@ -1,0 +1,4 @@
+name=Задание 2
+type=singl
+weight=1
+answer=3
