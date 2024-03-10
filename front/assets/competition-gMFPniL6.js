@@ -1,0 +1,1 @@
+import{A as i}from"./config-0xx7l4yL.js";async function s(e){return(await(await fetch(`${i}/get/if/user_competition[competition_id[id;name;start_time]]/user_id=${e}`)).json()).user_competitions.map(t=>t.competition)}async function r(e){const t=(await(await fetch(`${i}/get/if/competition/id=${e}`)).json()).competitions;return t.length>0?t[0]:null}export{r as G,s as a};
