@@ -1,4 +1,0 @@
-name=Задание 10
-type=singl
-weight=1
-answer=NUN ANS

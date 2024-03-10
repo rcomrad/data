@@ -1,4 +1,0 @@
-name=Задание 7
-type=singl
-weight=1
-answer=2

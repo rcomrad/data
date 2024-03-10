@@ -1,4 +1,0 @@
-name=Вопрос 7
-type=singl
-answer=1
-weight=1

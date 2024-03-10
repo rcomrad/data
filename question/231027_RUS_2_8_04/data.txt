@@ -1,4 +1,0 @@
-name=Задание 4
-type=singl
-weight=1
-answer=3

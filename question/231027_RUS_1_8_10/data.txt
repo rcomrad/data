@@ -1,4 +1,0 @@
-name=Вопрос 10
-type=singl
-weight=10
-answer=NUN
