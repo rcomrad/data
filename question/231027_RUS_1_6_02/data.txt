@@ -1,4 +1,0 @@
-name=вопрос 2
-type=singl
-weight=1
-answer=4
