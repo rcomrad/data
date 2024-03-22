@@ -1,0 +1,4 @@
+name=Фабрика гномов
+type=singl
+weight=2
+answer=13 3

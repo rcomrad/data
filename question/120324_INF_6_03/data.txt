@@ -1,0 +1,4 @@
+name=Насущные проблемы и одно кресло
+type=singl
+weight=1
+answer=8
