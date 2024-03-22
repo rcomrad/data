@@ -1,0 +1,1 @@
+import{j as t}from"./index--C9Zf2yg.js";import{A as e}from"./Alert-QRKaOidW.js";function i(){return t.jsx("div",{className:"full-height d-flex justify-content-center align-items-center",children:t.jsx(e,{text:"Мы послали письмо с инструкциями для завершения регистрации",type:"success"})})}export{i as default};
