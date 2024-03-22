@@ -1,4 +1,4 @@
-name=Фабрика гномов
+name=Тестовое задание
 type=singl
 weight=1
 answer=9 3
