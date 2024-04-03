@@ -1,0 +1,4 @@
+name=Игра
+type=singl
+weight=2
+answer=29
