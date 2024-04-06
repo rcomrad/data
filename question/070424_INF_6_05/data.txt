@@ -1,0 +1,4 @@
+name=Красная Шапочка
+type=singl
+weight=2
+answer=LR

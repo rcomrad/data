@@ -1,0 +1,4 @@
+name=Олимпиада
+type=singl
+weight=1
+answer=13 14 3

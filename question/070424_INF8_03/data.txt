@@ -1,0 +1,4 @@
+name=Мышка-Малышка
+type=singl
+weight=1
+answer=2790

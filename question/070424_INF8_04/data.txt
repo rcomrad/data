@@ -1,0 +1,4 @@
+name=Сладкие остатки
+type=singl
+weight=1
+answer=4 4 Петя
