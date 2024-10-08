@@ -1,4 +1,4 @@
-name=Ответы на вопросы
+name=Соответствие
 type=table
 weight=1
 answer=6 3
