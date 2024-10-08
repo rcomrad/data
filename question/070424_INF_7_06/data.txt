@@ -1,0 +1,4 @@
+name=Случайные числа
+type=singl
+weight=2
+answer=909

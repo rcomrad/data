@@ -1,0 +1,1 @@
+import{A as o}from"./config-ZEIqkGks.js";async function s(e){return(await(await fetch(`${o}/get/if/competition_user[competition_id[]]/user_id=${e}`)).json()).competition_users.map(t=>t.competition)}async function r(e){const t=(await(await fetch(`${o}/get/if/competition/id=${e}`)).json()).competitions;return t.length>0?t[0]:null}export{r as G,s as a};
