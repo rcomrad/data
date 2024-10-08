@@ -1,0 +1,4 @@
+name=Составьте слова
+type=table
+weight=1
+answer=6 3

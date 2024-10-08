@@ -1,0 +1,4 @@
+name=Ответы на вопросы
+type=table
+weight=1
+answer=6 3
