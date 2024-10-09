@@ -1,4 +1,4 @@
 name=Соответствие
-type=table
+type=single
 weight=1
 answer=6 3
