@@ -8,8 +8,12 @@ h e i a k
 a k u m s 
 
 
-Malli: koira
 <table border="1">
+  <thead>
+    <tr>
+      <th colspan="5">Malli: koira</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td>i</td>
