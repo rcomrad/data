@@ -1,4 +1,4 @@
 name=Аудирование 1
-type=radio
+type=singl
 weight=1
 answer=6 3
