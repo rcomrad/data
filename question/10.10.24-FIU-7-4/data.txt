@@ -1,0 +1,4 @@
+name=Аудирование 4
+type=singl
+weight=1
+answer=6 3
