@@ -1,0 +1,15 @@
+Найди к вопросам, подходящие по смыслу ответы. Запиши ответы под таблицей.
+
+1 Missä sinä asut?
+2 Kenellä on iso perhe?
+3 Mikä on Suomen pääkaupunki?
+4 Mitä mummo juo aamulla?
+5 Kenen kanssa isä menee töihin?
+6 Mihin Niemiset matkustavat junalla?
+
+A Helsinki
+B Rovaniemelle
+C Kahvia kerman kanssa
+D Pietarissa
+E Veikolla
+F Kaverin kanssa
