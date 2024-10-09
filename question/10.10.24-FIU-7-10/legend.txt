@@ -2,3 +2,5 @@
 Malli: Minä – asua – Suomi / Minä asun Suomessa.
 
 Eilen – ilta – Lehtinen (mon.*) – lähteä – maa.
+
+* mon. – monikko – множественное число
