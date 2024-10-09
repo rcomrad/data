@@ -1,4 +1,4 @@
 name=Аудирование
-type=bool
+type=singl
 weight=1
 answer=6 3
