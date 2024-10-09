@@ -6,3 +6,38 @@ i v r ä o
 n s u t l
 h e i a k
 a k u m s 
+
+
+Malli: koira
+<table border="1">
+  <tbody>
+    <tr>
+      <td>i</td>
+      <td>v</td>
+      <td>r</td>
+      <td>ä</td>
+      <td>o</td>
+    </tr>
+    <tr>
+      <td>n</td>
+      <td>s</td>
+      <td>u</td>
+      <td>t</td>
+      <td>l</td>
+    </tr>
+    <tr>
+      <td>h</td>
+      <td>e</td>
+      <td>i</td>
+      <td>a</td>
+      <td>k</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>k</td>
+      <td>u</td>
+      <td>m</td>
+      <td>s</td>
+    </tr>
+  </tbody>
+</table>
