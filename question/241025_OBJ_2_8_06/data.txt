@@ -1,4 +1,4 @@
 name=Вопрос 6
 type=singl
 weight=1
-answer=4
+answer=2

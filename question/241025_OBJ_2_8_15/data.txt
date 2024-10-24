@@ -1,4 +1,4 @@
 name=Вопрос 15
 type=singl
-weight=1
-answer=2 5
+weight=2
+answer=3 4

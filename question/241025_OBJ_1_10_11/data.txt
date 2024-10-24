@@ -1,4 +1,5 @@
 name=Вопрос 11
 type=singl
-weight=1
-answer=1
+weight=2
+answer=3 5
+img=znaki.jpg

@@ -1,4 +1,4 @@
 name=Вопрос 8
 type=singl
-weight=2
-answer=4
+weight=1
+answer=3

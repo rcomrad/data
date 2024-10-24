@@ -1,5 +1,4 @@
 name=Вопрос 14
 type=singl
 weight=2
-answer=
-jury answer=NUN ANS
+answer=2 4
