@@ -1,0 +1,5 @@
+name=Вопрос 7
+type=singl
+weight=1
+answer=4
+img=rgd5.jpg

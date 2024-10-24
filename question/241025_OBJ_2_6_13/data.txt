@@ -1,0 +1,4 @@
+name=Вопрос 13
+type=singl
+weight=1
+answer=1

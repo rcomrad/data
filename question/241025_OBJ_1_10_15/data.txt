@@ -1,0 +1,4 @@
+name=Вопрос 15
+type=singl
+weight=3
+answer=1 5

@@ -1,0 +1,4 @@
+name=Вопрос 14
+type=singl
+weight=2
+answer=2 4

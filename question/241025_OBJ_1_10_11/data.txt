@@ -1,0 +1,4 @@
+name=Вопрос 11
+type=singl
+weight=1
+answer=1
