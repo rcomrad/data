@@ -1,4 +1,4 @@
 name=вопрос 1
-type=singl
 answer=6
+type=singl
 weight=1

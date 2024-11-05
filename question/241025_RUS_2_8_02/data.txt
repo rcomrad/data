@@ -1,4 +1,4 @@
 name=Вопрос 2
-type=check.
 weight=5
 answer=кресло купать метать горевать домотать
+type=singl

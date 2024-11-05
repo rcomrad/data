@@ -1,4 +1,4 @@
 name=Вопрос 6
-type=singl
 weight=5
 answer=собака медведь кошка волк бык
+type=singl
