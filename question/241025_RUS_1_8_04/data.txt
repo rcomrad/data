@@ -1,0 +1,4 @@
+name=Вопрос 4
+type=singl
+answer=1
+weight=1

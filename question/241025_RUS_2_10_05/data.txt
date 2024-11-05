@@ -1,0 +1,4 @@
+name=Вопрос 5
+type=singl
+weight=5
+answer=3

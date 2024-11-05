@@ -1,0 +1,4 @@
+name=Вопрос 7
+answer=4 6 1 2 5
+type=singl
+weight=1

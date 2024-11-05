@@ -1,0 +1,4 @@
+name=Вопрос 6
+type=singl
+answer=2
+weight=1
