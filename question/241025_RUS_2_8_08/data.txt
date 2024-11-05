@@ -1,5 +1,5 @@
 name=Вопрос 8
+answer=
 weight=15
 type=singl
-answer=
 jury answer=NUN ANS

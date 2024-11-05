@@ -1,5 +1,5 @@
 name=Вопрос 8
+answer=
 type=развёрнутый ответ на вопрос.
 weight=15
-answer=
 jury answer=NUN ANS
