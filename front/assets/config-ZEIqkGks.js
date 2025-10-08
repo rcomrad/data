@@ -1,1 +1,1 @@
-const s="https://kussystem.ru/api";export{s as A};
+const s="https://куссистем.рф/api";export{s as A};
