@@ -1,0 +1,4 @@
+Отметь, верно или неверно утверждение.
+Antti ja Paavo opiskelevat yliopistossa Petroskoissa.
+1) Верно
+2) Неверно

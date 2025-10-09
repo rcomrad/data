@@ -1,0 +1,4 @@
+name=Аудиозапись
+answer=1
+type=singl
+weight=1

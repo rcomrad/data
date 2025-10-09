@@ -1,0 +1,4 @@
+Отметь, верно или неверно утверждение.
+Opettajien mielestä Paavosta tulee hyvä opettaja.
+1) Верно
+2) Неверно
