@@ -1,8 +1,8 @@
-Запиши ответы (цифры) в порядке следования волпросов. Например для
+Запиши ответы (цифры) в порядке следования вопросов. Например для
 соответствия A-3 B-1 C-2 ответом будет 312.
 <br>
 Найди к вопросам:
-A	Kuka hän on?
+A	<b>Kuka hän on?</b>
 B	Milloin joulu on?
 C	Missä Liisa opiskelee?
 D	Kenen kirja se on?
@@ -13,6 +13,6 @@ F	Mitä te syötte aamulla?
 1	Talvella
 2	Punainen
 3	Kimmon
-4	Pekka
+4	<b>Pekka</b>
 5	Puuroa
 6	Koulussa

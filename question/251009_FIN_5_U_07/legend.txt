@@ -1,8 +1,8 @@
-Запиши ответы (цифры) в порядке следования волпросов. Например для
+Запиши ответы (цифры) в порядке следования вопросов. Например для
 соответствия A-3 B-1 C-2 ответом будет 312.
 <br>
 Найди к вопросам:
-A	Missä sinä asut?
+A	<b>Missä sinä asut?</b>
 B	Kenen kanssa Pekka lähtee kouluun?
 C	Mihin Lehtiset matkustavat autolla?
 D	Mitä sinä saat jouluna?
@@ -13,6 +13,6 @@ F	Mikä on Ruotsin pääkaupunki?
 1	Hyvän lahjan
 2	Kilteille lapsille
 3	Siskon kanssa
-4	Pietarissa
+4	<b>Pietarissa</b>
 5	Tukholma
 6	Tampereelle
