@@ -1,5 +1,4 @@
 Найди к вопросам:
-<br>
 A	Missä sinä asut?
 B	Kenen kanssa Pekka lähtee kouluun?
 C	Mihin Lehtiset matkustavat autolla?

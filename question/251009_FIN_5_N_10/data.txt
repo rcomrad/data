@@ -1,5 +1,4 @@
 name=Вопрос_9
 answer=3
-img=fin_5_n.png
 type=singl
 weight=1

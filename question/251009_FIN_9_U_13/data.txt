@@ -1,4 +1,4 @@
-name=Вопрос_6
+name=Вопрос_12
 answer=3
 img=fin_9_u.png
 type=singl
