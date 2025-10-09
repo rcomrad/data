@@ -1,10 +1,12 @@
 Найди к вопросам:
+<br>
 A	Missä sinä asut?
 B	Kenen kanssa Pekka lähtee kouluun?
 C	Mihin Lehtiset matkustavat autolla?
 D	Mitä sinä saat jouluna?
 E	Kenelle Joulupukki tuo lahjat?
 F	Mikä on Ruotsin pääkaupunki?
+<br>
 Подходящие по смыслу ответы:
 1	Hyvän lahjan
 2	Kilteille lapsille
@@ -12,5 +14,6 @@ F	Mikä on Ruotsin pääkaupunki?
 4	Pietarissa
 5	Tukholma
 6	Tampereelle
+<br>
 Запиши ответы (цифры) в порядке следования волпросов. Например для
 соответствия A-3 B-1 C-2 ответом будет 312

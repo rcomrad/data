@@ -1,10 +1,12 @@
 Найди к вопросам:
+<br>
 A	Kuka hän on?
 B	Milloin joulu on?
 C	Missä Liisa opiskelee?
 D	Kenen kirja se on?
 E	Minkävärinen tomatti on?
 F	Mitä te syötte aamulla?
+<br>
 Подходящие по смыслу ответы:
 1	Talvella
 2	Punainen
@@ -12,5 +14,6 @@ F	Mitä te syötte aamulla?
 4	Pekka
 5	Puuroa
 6	Koulussa
+<br>
 Запиши ответы (цифры) в порядке следования волпросов. Например для
 соответствия A-3 B-1 C-2 ответом будет 312

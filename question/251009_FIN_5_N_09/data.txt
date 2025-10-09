@@ -1,5 +1,5 @@
-name=Вопрос 6
+name=Вопрос_8
 answer=3
-img=asdasd.png
+img=fin_5_n.png
 type=singl
 weight=1

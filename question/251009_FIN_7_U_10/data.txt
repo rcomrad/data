@@ -1,4 +1,4 @@
-name=Вопрос 9
+name=Вопрос_9
 answer=3
 type=singl
 weight=1
