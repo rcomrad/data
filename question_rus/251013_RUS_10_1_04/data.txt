@@ -1,0 +1,4 @@
+weight=1
+answer=1
+type=singl
+name=Задание_4

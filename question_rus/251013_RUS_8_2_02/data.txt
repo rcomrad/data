@@ -1,0 +1,4 @@
+answer=2
+weight=5
+name=02_D
+type=radio.

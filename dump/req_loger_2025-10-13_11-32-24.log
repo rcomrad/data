@@ -1,0 +1,12 @@
+POST /api/login {"login":"lol","password":"lol"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=21001 
+GET /api/get/if/competition_question/competition_id=1 
+GET /api/get/if/competition/id=1 
+GET /api/get_question/1/21001 
+GET /api/get_question/2/21001 
+GET /api/get_question/3/21001 
+GET /api/get_question/4/21001 
+GET /api/get_question/5/21001 
+GET /api/get_question/6/21001 
+GET /api/get_question/7/21001 
+GET /api/dump/* 

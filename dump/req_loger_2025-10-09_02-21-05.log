@@ -1,0 +1,12 @@
+GET /api/get_question/4/21001 
+POST /api/login {"login":"lol","password":"lol"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=21001 
+GET /api/get/if/competition_question/competition_id=4 
+GET /api/get/if/competition/id=4 
+GET /api/get_question/37/21001 
+GET /api/get_question/40/21001 
+GET /api/get_question/41/21001 
+POST /api/post/answer {"user_id":21001,"question_id":41,"value":"fgh"}
+GET /api/get_question/40/21001 
+GET /api/get_question/41/21001 
+POST /api/post/answer {"user_id":21001,"question_id":41,"value":"f33"}

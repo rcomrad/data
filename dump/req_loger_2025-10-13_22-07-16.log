@@ -1,0 +1,4 @@
+GET /api/get/if/competition/id=3 
+GET /api/get/if/competition/id=3 
+GET /api/get/if/competition_question/competition_id=3 
+GET /api/get_question/22/21001 

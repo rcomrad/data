@@ -1,0 +1,5 @@
+jury_answer=NUN_ANS
+answer=
+weight=1
+type=singl
+name=Задание_8

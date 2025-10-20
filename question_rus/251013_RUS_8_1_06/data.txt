@@ -1,0 +1,4 @@
+weight=1
+answer=4
+type=singl
+name=Задание_6

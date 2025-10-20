@@ -1,0 +1,4 @@
+answer=5
+weight=5
+name=02_F
+type=singl

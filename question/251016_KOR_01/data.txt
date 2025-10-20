@@ -1,0 +1,5 @@
+weight=1
+img=k1.png
+answer=3
+type=singl
+name=Задание_1

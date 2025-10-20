@@ -1,0 +1,12 @@
+GET /api/get/if/competition/id=5 
+GET /api/get/if/competition/id=5 
+GET /api/get/if/competition_question/competition_id=5 
+GET /api/get_question/38/21001 
+GET /api/get/if/competition/id=1 
+GET /api/get/if/competition_question/competition_id=1 
+GET /api/get_question/1/21001 
+GET /api/get_question/2/21001 
+GET /api/get_question/3/21001 
+GET /api/get_question/4/21001 
+GET /api/command/restart/empty 
+GET /api/get_question/5/21001 

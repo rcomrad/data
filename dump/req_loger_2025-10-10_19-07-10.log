@@ -1,0 +1,18 @@
+GET /api/dump_as_file/* 
+GET /api/get/if/competition/id=5 
+GET /api/get/if/competition_question/competition_id=5 
+GET /api/get_question/49/21102 
+POST /api/login {"login":"fin-ptz-929","password":"993029"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=21093 
+POST /api/login {"login":"fin-uch-01","password":"11091"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=21127 
+GET /api/get/if/competition_question/competition_id=5 
+GET /api/get/if/competition/id=5 
+POST /api/login {"login":"RUS03101","password":"14148"}
+POST /api/login {}
+POST /api/login {"login":"RUS03102","password":"14149"}
+POST /api/login {"login":"RUS03102","password":"14149"}
+POST /api/login {"login":"RUS03102","password":"14150"}
+POST /api/login {"login":"RUS03102","password":"RUS03104"}
+POST /api/login {"login":"RUS03102","password":"RUS03104"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=21084 

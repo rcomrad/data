@@ -1,0 +1,14 @@
+GET /api/command/restart/empty 
+GET /api/dump/* 
+POST /api/login {"login":"test","password":"test"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=23001 
+GET /api/get/if/competition_question/competition_id=1 
+GET /api/get/if/competition/id=1 
+GET /api/get_question/1/23001 
+POST /api/login {"login":"test","password":"test"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=23001 
+GET /api/get/if/competition_question/competition_id=1 
+GET /api/get/if/competition/id=1 
+GET /api/get_question/1/23001 
+GET /api/get_question/2/23001 
+GET /api/command/restart/full 
