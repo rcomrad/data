@@ -1,0 +1,4 @@
+answer=венозное
+weight=2
+type=singl
+name=Вопрос_22

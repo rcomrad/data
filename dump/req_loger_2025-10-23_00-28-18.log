@@ -1,0 +1,4 @@
+GET /api/command/restart/empty 
+GET /api/get/if/competition_user[competition_id[]]/user_id=23001 
+POST /api/login {"login":"обж","password":"test"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=25001 

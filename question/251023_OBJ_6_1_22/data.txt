@@ -1,0 +1,5 @@
+answer=отравление_вода_аптечка_метель
+weight=4
+type=singl
+name=Вопрос_22
+img=image.jpg

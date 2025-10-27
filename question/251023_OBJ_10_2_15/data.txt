@@ -1,0 +1,5 @@
+img=Bicycle.jpg
+answer=Движение_велосипеда_запрещено.
+weight=6
+type=singl
+name=Вопрос_15

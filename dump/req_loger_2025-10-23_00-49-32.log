@@ -1,0 +1,75 @@
+GET /api/command/restart/empty 
+GET /api/dump/* 
+GET /api/command/user=comp/06=1 
+GET /api/command/user=comp/06=2 
+GET /api/command/user=comp/07=1 
+GET /api/command/user=comp/07=2 
+GET /api/command/user=comp/08=3 
+GET /api/command/user=comp/08=4 
+GET /api/command/user=comp/09=3 
+GET /api/command/user=comp/09=4 
+GET /api/command/user=comp/10=5 
+GET /api/command/user=comp/10=6 
+GET /api/command/user=comp/11=5 
+GET /api/command/user=comp/11=6 
+GET /api/dump/* 
+POST /api/login {"login":"ОБЖОВЗ06","password":"60501"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29015 
+POST /api/login {"login":"ОБЖОВЗ07","password":"70803"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29054 
+POST /api/login {"login":"ОБЖОВЗ08","password":"80806"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29140 
+POST /api/login {"login":"ОБЖОВЗ09","password":"90113"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29274 
+POST /api/login {"login":"ОБЖОВЗ10","password":"101504"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29407 
+POST /api/login {"login":"ОБЖОВЗ11","password":"110504"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29456 
+GET /api/get/if/competition_question/competition_id=5 
+GET /api/get/if/competition/id=5 
+GET /api/get_question/98/29456 
+GET /api/get_question/99/29456 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29456 
+GET /api/get/if/competition_question/competition_id=6 
+GET /api/get/if/competition/id=6 
+GET /api/get_question/105/29456 
+GET /api/get_question/109/29456 
+GET /api/get_question/112/29456 
+GET /api/get_question/114/29456 
+GET /api/get_question/108/29456 
+GET /api/get_question/100/29456 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29456 
+POST /api/login {"login":"ОБЖОВЗ06","password":"61801"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29002 
+POST /api/login {"login":"ОБЖОВЗ07","password":"70701"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29112 
+GET /api/get/if/competition_question/competition_id=2 
+GET /api/get/if/competition/id=2 
+GET /api/get_question/30/29112 
+GET /api/get_question/36/29112 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29112 
+GET /api/command/restart/empty 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29112 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29112 
+POST /api/login {"login":"ОБЖОВЗ08","password":"80301"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29136 
+GET /api/command/restart/empty 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29136 
+POST /api/login {"login":"ОБЖОВЗ07","password":"71405"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29105 
+GET /api/command/restart/empty 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29105 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29105 
+GET /api/command/restart/empty 
+GET /api/get/if/competition_user[competition_id[]]/user_id=29105 
+POST /api/login {"login":"ОБЖОВЗ08","password":"80804"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29125 
+POST /api/login {"login":"ОБЖОВЗ11","password":"110133"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29427 
+POST /api/login {"login":"ОБЖОВЗ11","password":"110201"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29461 
+POST /api/login {"login":"ОБЖОВЗ08","password":"81202"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=29152 
+GET /api/get/if/competition_question/competition_id=3 
+GET /api/get/if/competition/id=3 
+GET /api/get_question/45/29152 

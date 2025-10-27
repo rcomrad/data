@@ -1,0 +1,5 @@
+answer=Б_В_А
+weight=3
+type=singl
+name=Вопрос_21
+img=image.jpg

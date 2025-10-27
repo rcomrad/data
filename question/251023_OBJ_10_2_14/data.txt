@@ -1,0 +1,4 @@
+answer=пешеход_водитель_пассажир
+weight=6
+type=singl
+name=Вопрос_14

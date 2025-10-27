@@ -1,0 +1,4 @@
+answer=артериальное
+weight=2
+type=singl
+name=Вопрос_23

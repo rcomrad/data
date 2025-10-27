@@ -1,0 +1,5 @@
+img=avtomat.jpg
+answer=2
+weight=1
+type=singl
+name=Вопрос_10

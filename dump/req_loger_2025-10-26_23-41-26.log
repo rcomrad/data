@@ -1,0 +1,3 @@
+GET /api/get_results/6 
+GET /api/command/restart/empty 
+GET /api/get_results/6 

@@ -1,0 +1,4 @@
+answer=2_4_5
+weight=3
+type=singl
+name=Вопрос_23

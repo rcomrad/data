@@ -1,0 +1,5 @@
+img=Crosswalk.jpg
+answer=Пешеходный_переход
+weight=4
+type=singl
+name=Вопрос_14

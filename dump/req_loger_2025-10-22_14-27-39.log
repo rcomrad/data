@@ -1,0 +1,4 @@
+GET /api/command/restart/empty 
+GET /api/get_results/2 
+GET /api/get_results/1 
+GET /api/get_results/2 

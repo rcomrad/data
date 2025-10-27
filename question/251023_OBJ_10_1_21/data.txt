@@ -1,0 +1,4 @@
+answer=3_2_4_1
+weight=4
+type=singl
+name=Вопрос_21

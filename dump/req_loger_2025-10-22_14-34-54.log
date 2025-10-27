@@ -1,0 +1,16 @@
+GET /api/get_results/2 
+GET /api/command/restart/empty 
+GET /api/get_results/2 
+POST /api/login {"login":"RUS26906","password":"14082"}
+POST /api/login {}
+POST /api/login {"password":"14082"}
+POST /api/login {"login":"RUS26901","password":"14077"}
+POST /api/login {}
+POST /api/login {"login":"jap-lang-03","password":"33003"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=25095 
+GET /api/get/if/competition_question/competition_id=2 
+GET /api/get/if/competition/id=2 
+GET /api/get/if/competition_user[competition_id[]]/user_id=25095 
+GET /api/get/if/competition_question/competition_id=2 
+GET /api/get/if/competition/id=2 
+GET /api/get_question/11/25095 

@@ -1,0 +1,23 @@
+GET /api/command/restart/empty 
+GET /api/dump/* 
+GET /api/dump/* 
+GET /api/command/user=comp/06=1 
+GET /api/dump/* 
+GET /api/command/user=comp/06=2 
+GET /api/command/user=comp/07=3 
+GET /api/command/restart/empty 
+GET /api/command/user=comp/06=1 
+GET /api/command/user=comp/06=2 
+GET /api/command/user=comp/07=1 
+GET /api/command/user=comp/07=2 
+GET /api/command/user=comp/08=3 
+GET /api/command/user=comp/08=4 
+GET /api/command/user=comp/09=3 
+GET /api/command/user=comp/09=4 
+GET /api/command/user=comp/10=5 
+GET /api/command/user=comp/10=6 
+GET /api/command/user=comp/11=5 
+GET /api/command/user=comp/11=6 
+GET /api/dump/* 
+POST /api/login {"login":"ОБЖОВЗ10","password":"101505"}
+GET /api/get/if/competition_user[competition_id[]]/user_id=25408 
